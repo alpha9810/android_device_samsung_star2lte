@@ -30,3 +30,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME) \
     SystemDevice=$(PRODUCT_SYSTEM_DEVICE) \
     SystemName=$(PRODUCT_SYSTEM_NAME)
+
+# Maintainer
+ALPHA_BUILD_TYPE := UNOFFOCIAL
+ALPHA_MAINTAINER := bobo-corazon-krazey
+
