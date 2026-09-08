@@ -1,0 +1,104 @@
+[
+  {
+    "remote": "github",
+    "repository": "ExyHyperBrick/android_kernel_samsung_exynos9810",
+    "target_path": "kernel/samsung/exynos9810",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "ExyHyperBrick/android_device_samsung_exynos9810-common",
+    "target_path": "device/samsung/exynos9810-common",
+    "branch": "lineage-23.2-ims"
+  },
+  {
+    "remote": "github",
+    "repository": "ExyHyperBrick/proprietary_vendor_samsung_exynos9810-common",
+    "target_path": "vendor/samsung/exynos9810-common",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "ExyHyperBrick/proprietary_vendor_samsung_crownlte",
+    "target_path": "vendor/samsung/crownlte",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "ExyHyperBrick/proprietary_vendor_samsung_star2lte",
+    "target_path": "vendor/samsung/star2lte",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "ExyHyperBrick/proprietary_vendor_samsung_starlte",
+    "target_path": "vendor/samsung/starlte",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_device_samsung_slsi_sepolicy",
+    "target_path": "device/samsung_slsi/sepolicy",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung_slsi-linaro_config",
+    "target_path": "hardware/samsung_slsi-linaro/config",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung_slsi-linaro_exynos",
+    "target_path": "hardware/samsung_slsi-linaro/exynos",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung_slsi-linaro_exynos5",
+    "target_path": "hardware/samsung_slsi-linaro/exynos5",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung_slsi-linaro_graphics",
+    "target_path": "hardware/samsung_slsi-linaro/graphics",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung_slsi-linaro_interfaces",
+    "target_path": "hardware/samsung_slsi-linaro/interfaces",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung_slsi-linaro_openmax",
+    "target_path": "hardware/samsung_slsi-linaro/openmax",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_samsung_slsi_nfc",
+    "target_path": "hardware/samsung_slsi/nfc",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "ExyHyperBrick/android_hardware_samsung_slsi_exynos_dtbh",
+    "target_path": "hardware/samsung_slsi/exynos/dtbh",
+    "branch": "lineage-23.2"
+  },
+  {
+    "remote": "github",
+    "repository": "krazey/ims",
+    "target_path": "packages/apps/PhhIms",
+    "branch": "main"
+  }
+]
