@@ -28,7 +28,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := false
 
 # Whether you are compiling being an OFFICIAL Maintainer:
-INFINITY_BUILD_TYPE := OFFICIAL
+INFINITY_BUILD_TYPE := UNOFFICIAL
 
 # Maintainer Name
 INFINITY_MAINTAINER := localhorst04_&_bobo
