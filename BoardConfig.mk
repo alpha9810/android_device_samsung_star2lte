@@ -17,3 +17,7 @@ include device/samsung/exynos9810-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary configuration
 include vendor/samsung/star2lte/BoardConfigVendor.mk
+
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
+
