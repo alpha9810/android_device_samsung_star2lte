@@ -12,13 +12,33 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/samsung/star2lte/device.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_star2lte
+PRODUCT_NAME := infinity_star2lte
 PRODUCT_DEVICE := star2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G965F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Some Build Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := false
+
+# Whether you are compiling being an OFFICIAL Maintainer:
+INFINITY_BUILD_TYPE := OFFICIAL
+
+# Maintainer Name
+INFINITY_MAINTAINER := localhorst04_&_bobo
+
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := false
+
+# Whether Including Google Apps
+WITH_GAPPS := false
+
+
+
+
