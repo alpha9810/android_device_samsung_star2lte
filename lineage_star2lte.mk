@@ -23,5 +23,22 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+# Lunaris Official
+LUNARIS_BUILD_TYPE := UNOFFICIAL
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_DISABLE_EPPE := true
+WITH_BCR := true
 TARGET_CUSTOM_UDFPS := false
 WITH_GMS := false
+TARGET_SUPPORTS_BLUR := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_SUPPORTS_QUICK_TAP := false
+WITH_PIXEL_LAUNCHER := false
+
+# Enable vulkan
+USE_DEFAULT_VULKAN := true
+
+# For old devices add this also
+# Vulkan video issue
+TARGET_NEEDS_VULKAN_MEDIA_FIX := true
