@@ -23,13 +23,14 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-# Lunch banner maintainer variable
-RISING_MAINTAINER="corazon404&bobo"
-
-# Disable/enable blur support, false by default
+# Just flags
+RISING_MAINTAINER="bobo&corazon404"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Exynos 9810 (10 nm) - EMEA" \
+    RisingMaintainer="bobo&corazon404"
+RISING_MAINTAINER := bobo&corazon404
 TARGET_ENABLE_BLUR := false
-
-# VANILLA build with MICROG
+PRODUCT_NO_CAMERA := false
 WITH_GMS := false
 WITH_MICROG := true
 
