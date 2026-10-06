@@ -22,3 +22,21 @@ PRODUCT_MODEL := SM-G965F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Lunch banner maintainer variable
+RISING_MAINTAINER="corazon404&bobo"
+
+# Disable/enable blur support, false by default
+TARGET_ENABLE_BLUR := false
+
+# VANILLA build with MICROG
+WITH_GMS := false
+WITH_MICROG := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="samsung star2lte star2lte:16 BP4A.251205.006 eng.androi:user release-keys" \
+    BuildFingerprint=samsung/star2lte/star2lte:16/BP4A.251205.006/eng.androi:user/release-keys \
+    DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME) \
+    SystemDevice=$(PRODUCT_SYSTEM_DEVICE) \
+    SystemName=$(PRODUCT_SYSTEM_NAME)
