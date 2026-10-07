@@ -32,7 +32,6 @@ RISING_MAINTAINER := bobo&corazon404
 TARGET_ENABLE_BLUR := false
 PRODUCT_NO_CAMERA := false
 WITH_GMS := false
-WITH_MICROG := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="samsung star2lte star2lte:16 BP4A.251205.006 eng.androi:user release-keys" \
