@@ -22,3 +22,11 @@ PRODUCT_MODEL := SM-G965F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := false
+EVO_BUILD_TYPE := Unofficial
+TARGET_INCLUDE_BOOT_ANIMATIONS := true	
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="samsung star2lte star2lte:16 BP4A.251205.006 eng.androi:user release-keys"
