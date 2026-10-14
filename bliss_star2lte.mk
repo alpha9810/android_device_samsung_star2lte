@@ -4,6 +4,7 @@
 # Inherit from generic products, most specific first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Product API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
@@ -11,14 +12,28 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from star2lte device.mk
 $(call inherit-product, device/samsung/star2lte/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common bliss stuff
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_star2lte
+PRODUCT_NAME := bliss_star2lte
 PRODUCT_DEVICE := star2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G965F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Some Build Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+BLISS_BUILDTYPE := UNOFFICIAL
+
+PRODUCT_SYSTEM_NAME := star2lte_global
+PRODUCT_SYSTEM_DEVICE := star2lte
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="samsung star2lte_global star2lte:16 BP4A.251205.006 eng.androi:user release-keys" \
+    BuildFingerprint=samsung/star2lte_global/star2lte:16/BP4A.251205.006/eng.androi:user/release-keys \
+    DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME) 
+
